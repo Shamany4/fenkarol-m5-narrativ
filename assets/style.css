@@ -332,6 +332,10 @@ html {
     height: 13px;
   }
 }
+#fenkarol-m5-narrativ .role-doctor {
+  height: 100%;
+  width: 100%;
+}
 #fenkarol-m5-narrativ .role-doctor .role-doctor__wrapper {
   width: 100%;
   height: 498px;
