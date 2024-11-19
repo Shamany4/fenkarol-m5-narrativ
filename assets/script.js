@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
       centeredSlides: true,
       autoHeight: true,
       loop: false,
+      zoom: true,
 
       // pagination: {
       //   el: '.rinit-slider__pagination',
