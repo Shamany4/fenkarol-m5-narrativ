@@ -81,6 +81,10 @@
     }
   }
 
+  .swiper-slide {
+    overflow: hidden;
+  }
+
   @include media(sm) {
     .rinit-slider__button-prev,
     .rinit-slider__button-next {

@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuLinks = document.querySelectorAll('.rinit-slider-menu > li');
 
     const parameters = {
+      zoom: true,
       direction: 'horizontal',
       slidePerView: 1,
       slidePerCount: 1,
@@ -11,7 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
       centeredSlides: true,
       autoHeight: true,
       loop: false,
-      zoom: true,
 
       // pagination: {
       //   el: '.rinit-slider__pagination',

@@ -317,6 +317,9 @@ html {
 #fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-next img {
   transform: rotate(180deg);
 }
+#fenkarol-m5-narrativ .rinit-slider .swiper-slide {
+  overflow: hidden;
+}
 @media screen and (max-width: 576px) {
   #fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-prev,
   #fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-next {
