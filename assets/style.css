@@ -1,0 +1,1092 @@
+@charset "UTF-8";
+html {
+  height: auto !important;
+}
+
+#fenkarol-m5-narrativ {
+  margin-bottom: 50px;
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("NotoSans"), url("../assets/fonts/NotoSans.woff2") format("woff2");
+}
+@font-face {
+  font-family: "NotoSans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("NotoSans"), url("../assets/fonts/NotoSans-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "FuturaPT";
+  font-style: normal;
+  font-weight: 400;
+  src: local("FuturaPT"), url("../assets/fonts/FuturaPT-Book.woff2") format("woff2");
+}
+@font-face {
+  font-family: "FuturaPT";
+  font-style: normal;
+  font-weight: 450;
+  src: local("FuturaPT"), url("../assets/fonts/FuturaPT-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "FuturaPT";
+  font-style: normal;
+  font-weight: 700;
+  src: local("FuturaPT"), url("../assets/fonts/FuturaPT-Bold.woff2") format("woff2");
+}
+#fenkarol-m5-narrativ div {
+  box-sizing: border-box;
+}
+#fenkarol-m5-narrativ .title {
+  margin: 0;
+  color: #000;
+  font-family: "NotoSans", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@media screen and (max-width: 576px) {
+  #fenkarol-m5-narrativ .title {
+    font-size: 24px;
+  }
+}
+#fenkarol-m5-narrativ p {
+  margin: 0;
+  font-family: "FuturaPT", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(81, 79, 79, 0.9);
+}
+#fenkarol-m5-narrativ ul,
+#fenkarol-m5-narrativ ol {
+  margin: 5px 0 0 0;
+  padding: 0 0 0 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#fenkarol-m5-narrativ ul li,
+#fenkarol-m5-narrativ ol li {
+  color: rgba(81, 79, 79, 0.9);
+  font-family: "FuturaPT", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#fenkarol-m5-narrativ ul li::before,
+#fenkarol-m5-narrativ ol li::before {
+  content: "•";
+}
+#fenkarol-m5-narrativ ol {
+  padding: 0 0 0 25px;
+  list-style: decimal;
+}
+#fenkarol-m5-narrativ ol li::before {
+  content: "";
+}
+#fenkarol-m5-narrativ .pink-bg {
+  padding: 24px;
+  border-radius: 10px;
+  background: #FBF3F7;
+}
+#fenkarol-m5-narrativ .aqua-bg {
+  padding: 8px 16px;
+  text-align: center;
+  border-radius: 40px;
+  background: #C6F1F0;
+}
+#fenkarol-m5-narrativ .align-center {
+  display: flex;
+  justify-content: center;
+}
+#fenkarol-m5-narrativ .align-start {
+  display: flex;
+  align-items: flex-start;
+}
+#fenkarol-m5-narrativ .color-gray {
+  color: rgba(81, 79, 79, 0.9);
+}
+#fenkarol-m5-narrativ .color-black {
+  color: #000000;
+}
+#fenkarol-m5-narrativ .color-pink {
+  color: #BC1E6A;
+}
+#fenkarol-m5-narrativ .color-red {
+  color: #A33737;
+}
+#fenkarol-m5-narrativ .color-turquoise {
+  color: #00938B;
+}
+#fenkarol-m5-narrativ .color-white {
+  color: #FFFFFF;
+}
+#fenkarol-m5-narrativ .fz-14 {
+  font-size: 14px;
+}
+#fenkarol-m5-narrativ .fz-15 {
+  font-size: 15px;
+}
+#fenkarol-m5-narrativ .fz-20 {
+  font-size: 20px;
+}
+#fenkarol-m5-narrativ .mt-8 {
+  margin-top: 8px;
+}
+#fenkarol-m5-narrativ .mt-10 {
+  margin-top: 10px;
+}
+#fenkarol-m5-narrativ .mt-14 {
+  margin-top: 14px;
+}
+#fenkarol-m5-narrativ .mt-16 {
+  margin-top: 16px;
+}
+#fenkarol-m5-narrativ .mt-20 {
+  margin-top: 20px;
+}
+#fenkarol-m5-narrativ .mt-24 {
+  margin-top: 24px;
+}
+#fenkarol-m5-narrativ .mt-26 {
+  margin-top: 26px;
+}
+#fenkarol-m5-narrativ .mt-30 {
+  margin-top: 30px;
+}
+#fenkarol-m5-narrativ .mt-35 {
+  margin-top: 35px;
+}
+#fenkarol-m5-narrativ .mt-40 {
+  margin-top: 40px;
+}
+#fenkarol-m5-narrativ .mt-50 {
+  margin-top: 50px;
+}
+#fenkarol-m5-narrativ .mt-56 {
+  margin-top: 56px;
+}
+@media screen and (max-width: 992px) {
+  #fenkarol-m5-narrativ .mt-56 {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #fenkarol-m5-narrativ .mt-56 {
+    margin-top: 24px;
+  }
+}
+#fenkarol-m5-narrativ .mt-60 {
+  margin-top: 60px;
+}
+@media screen and (max-width: 992px) {
+  #fenkarol-m5-narrativ .mt-60 {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #fenkarol-m5-narrativ .mt-60 {
+    margin-top: 24px;
+  }
+}
+#fenkarol-m5-narrativ .mb-24 {
+  margin-bottom: 24px;
+}
+#fenkarol-m5-narrativ .p-0 {
+  padding: 0;
+}
+#fenkarol-m5-narrativ .pl-16 {
+  padding-left: 16px;
+}
+#fenkarol-m5-narrativ .pb-0 {
+  padding-bottom: 0;
+}
+#fenkarol-m5-narrativ .w-medium {
+  font-weight: 450;
+}
+#fenkarol-m5-narrativ .w-bold {
+  font-weight: 700;
+}
+#fenkarol-m5-narrativ .main-layout .main-layout__wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 93px;
+}
+@media screen and (max-width: 1400px) {
+  #fenkarol-m5-narrativ .main-layout .main-layout__wrapper {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+}
+#fenkarol-m5-narrativ .main-content {
+  width: 745px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1400px) {
+  #fenkarol-m5-narrativ .main-content {
+    width: 100%;
+  }
+}
+#fenkarol-m5-narrativ .quiz-bnr {
+  width: 358px;
+  height: 589px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #F5F5F5;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.17);
+}
+@media screen and (max-width: 1400px) {
+  #fenkarol-m5-narrativ .quiz-bnr {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  #fenkarol-m5-narrativ .quiz-bnr {
+    width: 100%;
+  }
+}
+#fenkarol-m5-narrativ .rinit-slider {
+  overflow: hidden;
+}
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__controls.rinit-slider__controls--absolute {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__controls.rinit-slider__controls--static {
+  position: static;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__controls.rinit-slider__controls--static .rinit-slider__button-prev,
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__controls.rinit-slider__controls--static .rinit-slider__button-next {
+  position: static;
+  transform: translateY(0);
+}
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__pagination span {
+  color: #000000;
+  font-family: "FuturaPT", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-prev,
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-next {
+  width: 40px;
+  height: 44px;
+  position: absolute;
+  top: 292px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.6px solid #E3D4DC;
+  background: #FFFFFF;
+}
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-prev:hover,
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-next:hover {
+  cursor: pointer;
+}
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-prev img,
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-next img {
+  height: 17px;
+}
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-prev.disabled,
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-next.disabled {
+  visibility: hidden;
+}
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-prev {
+  left: 0;
+  border-radius: 0 13px 13px 0;
+}
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-next {
+  right: 0;
+  border-radius: 13px 0 0 13px;
+}
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-next img {
+  transform: rotate(180deg);
+}
+@media screen and (max-width: 576px) {
+  #fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-prev,
+  #fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-next {
+    top: 200px;
+    width: 34px;
+    height: 38px;
+  }
+  #fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-prev img,
+  #fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-next img {
+    height: 13px;
+  }
+}
+#fenkarol-m5-narrativ .role-doctor .role-doctor__wrapper {
+  width: 100%;
+  height: 498px;
+  position: relative;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #741750 0%, #B72081 100%);
+  overflow: hidden;
+}
+#fenkarol-m5-narrativ .role-doctor .role-doctor__title {
+  width: 314px;
+  position: absolute;
+  bottom: 27px;
+  right: 14px;
+  color: #FFFFFF;
+  font-family: "NotoSans", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#fenkarol-m5-narrativ .role-doctor .role-doctor__circle {
+  position: absolute;
+}
+#fenkarol-m5-narrativ .role-doctor .role-doctor__circle.role-doctor__circle--woman {
+  width: 373px;
+  bottom: 0;
+  left: 0;
+}
+#fenkarol-m5-narrativ .role-doctor .role-doctor__circle.role-doctor__circle--kids {
+  width: 313px;
+  top: 0;
+  right: 0;
+}
+#fenkarol-m5-narrativ .role-doctor .molecule {
+  position: absolute;
+  mix-blend-mode: lighten;
+}
+#fenkarol-m5-narrativ .role-doctor .molecule.molecule--1 {
+  width: 11px;
+  top: 45px;
+  left: 14px;
+}
+#fenkarol-m5-narrativ .role-doctor .molecule.molecule--2 {
+  width: 28px;
+  top: 79px;
+  left: 108px;
+}
+#fenkarol-m5-narrativ .role-doctor .molecule.molecule--3 {
+  width: 70px;
+  top: -13px;
+  left: 205px;
+}
+#fenkarol-m5-narrativ .role-doctor .molecule.molecule--4 {
+  width: 50px;
+  top: 235px;
+  right: 280px;
+}
+#fenkarol-m5-narrativ .role-doctor .molecule.molecule--5 {
+  width: 33px;
+  bottom: 136px;
+  right: 15px;
+}
+#fenkarol-m5-narrativ .role-doctor .molecule.molecule--6 {
+  width: 17px;
+  bottom: 33px;
+  right: 76px;
+}
+#fenkarol-m5-narrativ .role-doctor .monster {
+  width: 156px;
+  position: absolute;
+  top: 79px;
+  left: 224px;
+  z-index: 2;
+}
+@media screen and (max-width: 1400px) {
+  #fenkarol-m5-narrativ .role-doctor .role-doctor__title {
+    width: 374px;
+    bottom: 69px;
+    right: 255px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .molecule.molecule--2 {
+    top: 113px;
+    left: 265px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .molecule.molecule--3 {
+    top: 37px;
+    left: 595px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .molecule.molecule--4 {
+    right: 370px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .monster {
+    top: 169px;
+    left: 374px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #fenkarol-m5-narrativ .role-doctor .role-doctor__title {
+    bottom: 57px;
+    right: 105px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .molecule.molecule--4 {
+    top: 55px;
+    right: 450px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .monster {
+    left: 314px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #fenkarol-m5-narrativ .role-doctor .role-doctor__title {
+    width: 329px;
+    bottom: 37px;
+    right: 0;
+  }
+  #fenkarol-m5-narrativ .role-doctor .role-doctor__circle.role-doctor__circle--woman {
+    width: 300px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .role-doctor__circle.role-doctor__circle--kids {
+    width: 300px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .molecule.molecule--4 {
+    right: 522px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .monster {
+    left: 184px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #fenkarol-m5-narrativ .role-doctor .role-doctor__title {
+    width: 271px;
+    bottom: 44px;
+    right: -22px;
+    font-size: 20px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .role-doctor__circle.role-doctor__circle--woman {
+    width: 230px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .role-doctor__circle.role-doctor__circle--kids {
+    width: 230px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .molecule.molecule--2 {
+    left: 105px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .molecule.molecule--3 {
+    left: 178px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .molecule.molecule--4 {
+    top: 255px;
+    right: 182px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .monster {
+    left: 65px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #fenkarol-m5-narrativ .role-doctor .role-doctor__title {
+    width: 271px;
+    bottom: 196px;
+    right: auto;
+    left: 51px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .role-doctor__circle.role-doctor__circle--woman {
+    width: 180px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .role-doctor__circle.role-doctor__circle--kids {
+    width: 180px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .molecule.molecule--2 {
+    left: 128px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .molecule.molecule--4 {
+    top: 181px;
+    right: 33px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .molecule.molecule--5 {
+    bottom: 110px;
+    right: 42px;
+  }
+  #fenkarol-m5-narrativ .role-doctor .monster {
+    width: 116px;
+    top: 60px;
+    left: -4px;
+  }
+}
+#fenkarol-m5-narrativ .rinit-slider-menu li:hover {
+  cursor: pointer;
+}
+#fenkarol-m5-narrativ .content__title {
+  color: #514F4F;
+  font-family: "FuturaPT", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+}
+#fenkarol-m5-narrativ .red-title {
+  margin: 0;
+  color: #BC1E6A;
+  font-family: "NotoSans", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@media screen and (max-width: 768px) {
+  #fenkarol-m5-narrativ .red-title {
+    font-size: 22px;
+  }
+}
+#fenkarol-m5-narrativ .border-block .border-block__wrapper {
+  margin-top: 24px;
+  padding: 24px;
+  position: relative;
+  border-radius: 10px;
+  border: 2px solid #BC1E6A;
+}
+@media screen and (max-width: 576px) {
+  #fenkarol-m5-narrativ .border-block .border-block__wrapper {
+    padding: 14px;
+  }
+}
+#fenkarol-m5-narrativ .type-ar-table {
+  padding: 8px;
+}
+#fenkarol-m5-narrativ .type-ar-table img {
+  display: none;
+}
+#fenkarol-m5-narrativ .type-ar-table table {
+  border: none !important;
+}
+#fenkarol-m5-narrativ .type-ar-table table thead tr th:first-child, #fenkarol-m5-narrativ .type-ar-table table thead tr td:first-child,
+#fenkarol-m5-narrativ .type-ar-table table tbody tr th:first-child,
+#fenkarol-m5-narrativ .type-ar-table table tbody tr td:first-child {
+  min-width: 238px;
+}
+#fenkarol-m5-narrativ .type-ar-table table thead tr th {
+  max-height: 44px;
+  padding: 13px 8px;
+  vertical-align: middle;
+  background: #BC1E6A;
+  text-align: left;
+  color: #FFFFFF;
+  font-family: "FuturaPT", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 1;
+}
+#fenkarol-m5-narrativ .type-ar-table table thead tr th:first-child {
+  border-right: 2px solid rgba(193, 190, 190, 0.5);
+}
+#fenkarol-m5-narrativ .type-ar-table table tbody tr td {
+  padding: 12px;
+  vertical-align: middle;
+  background: #FFFFFF;
+  text-align: left;
+  color: #000000;
+  font-family: "FuturaPT", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+}
+#fenkarol-m5-narrativ .type-ar-table table tbody tr td:first-child {
+  padding-left: 24px;
+  border-right: 2px solid rgba(193, 190, 190, 0.5);
+  font-size: 16px;
+  font-weight: 450;
+}
+#fenkarol-m5-narrativ .type-ar-table table tbody tr:nth-child(2n) td {
+  background: #F2F2F2;
+}
+@media screen and (max-width: 768px) {
+  #fenkarol-m5-narrativ .type-ar-table {
+    width: 100%;
+  }
+  #fenkarol-m5-narrativ .type-ar-table table {
+    display: none;
+  }
+  #fenkarol-m5-narrativ .type-ar-table img {
+    display: block;
+  }
+}
+#fenkarol-m5-narrativ .complications-ar-table img {
+  display: none;
+}
+#fenkarol-m5-narrativ .complications-ar-table table {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+}
+#fenkarol-m5-narrativ .complications-ar-table table thead tr:first-child th {
+  border-bottom: 2px solid rgba(193, 190, 190, 0.5);
+}
+#fenkarol-m5-narrativ .complications-ar-table table thead tr:first-child th:first-child {
+  padding-left: 33px;
+  text-align: left;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: #BC1E6A;
+  color: #FFFFFF;
+}
+#fenkarol-m5-narrativ .complications-ar-table table thead tr:last-child th:first-child {
+  border-right: 2px solid rgba(193, 190, 190, 0.5);
+}
+#fenkarol-m5-narrativ .complications-ar-table table thead tr th {
+  max-height: 32px;
+  vertical-align: middle;
+  border-bottom: 2px solid rgba(193, 190, 190, 0.5);
+  background: #FFFFFF;
+  color: #514F4F;
+  text-align: center;
+  font-family: "FuturaPT", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 1;
+}
+#fenkarol-m5-narrativ .complications-ar-table table tbody tr td {
+  min-width: 209px;
+  padding: 16px 12px 16px 33px;
+  vertical-align: middle;
+  background: #FFFFFF;
+  color: #514F4F;
+  text-align: center;
+  font-family: "FuturaPT", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 1;
+}
+#fenkarol-m5-narrativ .complications-ar-table table tbody tr td img {
+  display: inline-block;
+  width: 18px;
+}
+#fenkarol-m5-narrativ .complications-ar-table table tbody tr td:first-child {
+  background: #BC1E6A;
+  color: #FFFFFF;
+  text-align: left;
+}
+#fenkarol-m5-narrativ .complications-ar-table table tbody tr td:nth-child(2) {
+  border-right: 2px solid rgba(193, 190, 190, 0.5);
+}
+#fenkarol-m5-narrativ .complications-ar-table table tbody tr:last-child td {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  #fenkarol-m5-narrativ .complications-ar-table table {
+    display: none;
+  }
+  #fenkarol-m5-narrativ .complications-ar-table img {
+    display: block;
+  }
+}
+#fenkarol-m5-narrativ .designations {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 7px;
+}
+#fenkarol-m5-narrativ .designations .designation {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+@media screen and (max-width: 768px) {
+  #fenkarol-m5-narrativ .designations {
+    flex-direction: column;
+  }
+}
+#fenkarol-m5-narrativ .role-block .role-block__wrapper {
+  margin: 0 auto;
+  max-width: 407px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 10px;
+  background: #FBF3F7;
+}
+#fenkarol-m5-narrativ .role-block .role__icon {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+#fenkarol-m5-narrativ .role-block .role__icon img {
+  width: 96px;
+}
+@media screen and (max-width: 768px) {
+  #fenkarol-m5-narrativ .role-block .role__icon img {
+    width: 70px;
+  }
+  #fenkarol-m5-narrativ .role-block .role__icon p {
+    font-size: 18px;
+  }
+  #fenkarol-m5-narrativ .role-block .role__icon p br {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  #fenkarol-m5-narrativ .role-block .role-block__wrapper {
+    gap: 24px;
+  }
+  #fenkarol-m5-narrativ .role-block .role__icon {
+    flex-direction: column;
+    gap: 10px;
+  }
+  #fenkarol-m5-narrativ .role-block .role__icon p {
+    text-align: center;
+  }
+}
+#fenkarol-m5-narrativ .role-chart {
+  display: block;
+  max-width: 576px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  #fenkarol-m5-narrativ .role-chart {
+    max-width: 100%;
+  }
+}
+#fenkarol-m5-narrativ .fenkarol {
+  overflow: hidden;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__wrapper {
+  height: 757px;
+  position: relative;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+  background: linear-gradient(0deg, rgba(223, 52, 139, 0.4) 0%, rgba(223, 52, 139, 0.4) 100%), linear-gradient(90deg, #741750 0%, #B72081 100%);
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__circle-bg {
+  width: 356px;
+  height: 324px;
+  position: absolute;
+  top: 138px;
+  left: 50%;
+  z-index: 0;
+  transform: translateX(-50%);
+  border-radius: 356px;
+  background: #F471B8;
+  filter: blur(54px);
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__title {
+  position: relative;
+  z-index: 2;
+  color: #FFFFFF;
+  font-family: "NotoSans", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__pack {
+  width: 696px;
+  position: relative;
+  left: 30px;
+  top: -35px;
+  z-index: 2;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__subtitle {
+  margin-top: -65px;
+  position: relative;
+  left: 20px;
+  z-index: 2;
+  color: #FFFFFF;
+  text-align: left;
+  font-family: "FuturaPT", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__icons {
+  margin: 40px 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__icons .fenkarol__icon {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__icons .fenkarol__icon img {
+  width: 96px;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__icons .fenkarol__icon p {
+  width: 242px;
+  color: #FFFFFF;
+  font-family: "FuturaPT", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 450;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__icons .fenkarol__icon:last-child p {
+  width: 126px;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__clock-picture {
+  position: absolute;
+  width: 161px;
+  top: 0;
+  right: 40px;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__concentration {
+  width: 204px;
+  height: 135px;
+  position: absolute;
+  top: 179px;
+  right: 48px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13.896px;
+  border: 2px dashed #EB82B3;
+  opacity: 0.8;
+  background: #FFFFFF;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__concentration p {
+  width: 175px;
+  color: #BC1E6A;
+  text-align: right;
+  font-family: "Calibri", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__circle {
+  width: 142px;
+  height: 142px;
+  position: absolute;
+  bottom: 43px;
+  right: 28px;
+  z-index: 3;
+  border-radius: 50%;
+  fill: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(11.3px);
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__circle img {
+  width: 28px;
+  position: absolute;
+  top: 50%;
+  left: -14px;
+  transform: translateY(-50%);
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__circle p {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: #BC1E6A;
+  font-family: "FuturaPT", "Arial", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__patient {
+  width: 617px;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 214px);
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__pictures {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture {
+  position: absolute;
+  z-index: 1;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--molecule-1 {
+  width: 29px;
+  top: 82px;
+  right: 231px;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--molecule-2 {
+  width: 11px;
+  top: 127px;
+  left: 101px;
+  mix-blend-mode: lighten;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--molecule-3 {
+  width: 17px;
+  top: 143px;
+  right: 273px;
+  mix-blend-mode: lighten;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--molecule-4 {
+  width: 23px;
+  top: 157px;
+  left: 66px;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--molecule-5 {
+  width: 39px;
+  top: 292px;
+  left: 51px;
+  mix-blend-mode: lighten;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--molecule-6 {
+  width: 11px;
+  top: 386px;
+  right: 63px;
+  mix-blend-mode: lighten;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--molecule-7 {
+  width: 18px;
+  bottom: 153px;
+  left: 265px;
+  mix-blend-mode: lighten;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--molecule-8 {
+  width: 33px;
+  bottom: 104px;
+  left: 310px;
+  mix-blend-mode: lighten;
+}
+#fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--monster {
+  width: 99px;
+  bottom: 0;
+  left: 184px;
+}
+@media screen and (max-width: 1400px) {
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__pack {
+    left: 105px;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__circle {
+    right: 208px;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--monster {
+    left: 344px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__circle {
+    right: 121px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__pack {
+    left: 50px;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__circle {
+    right: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__wrapper {
+    height: auto;
+    align-items: center;
+    padding-bottom: 0;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__circle-bg {
+    height: 80%;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__title {
+    text-align: center;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__pack {
+    top: 0;
+    left: calc(50% - 136px);
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__subtitle {
+    margin-top: 0;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__icons {
+    margin-left: 0;
+    position: relative;
+    z-index: 2;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__icons .fenkarol__icon {
+    flex-direction: column;
+    align-items: center;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__icons .fenkarol__icon p {
+    width: 80%;
+    text-align: center;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__icons .fenkarol__icon:last-child p {
+    width: 80%;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__concentration,
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__clock-picture {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__clock-picture {
+    margin-top: 24px;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__concentration p {
+    text-align: center;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__patient {
+    position: relative;
+    left: calc(50% - 301px);
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__circle {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--molecule-1 {
+    top: 161px;
+    right: 64px;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--molecule-2 {
+    top: 423px;
+    right: 153px;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--molecule-3 {
+    top: 126px;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--molecule-4 {
+    top: 457px;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--molecule-5 {
+    top: 668px;
+    left: 104px;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--molecule-6 {
+    top: 886px;
+    right: 130px;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--molecule-7 {
+    bottom: 292px;
+    left: 85px;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--molecule-8 {
+    bottom: 413px;
+    left: auto;
+    right: 84px;
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__pictures .fenkarol__picture.fenkarol__picture--monster {
+    left: 14px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__pack {
+    left: calc(50% - 88px);
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__patient {
+    left: calc(50% - 197px);
+  }
+  #fenkarol-m5-narrativ .fenkarol .fenkarol__circle {
+    bottom: 10px;
+    left: auto;
+    right: 15px;
+    transform: translateX(0);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+// Temp styles
+html {
+  height: auto !important;
+}
+
+#fenkarol-m5-narrativ {
+  margin-bottom: 50px;
+}
+
+
+#fenkarol-m5-narrativ {
+  @import "utils/fonts";
+  @import "utils/variables";
+  @import "utils/mixins";
+  @import "utils/base";
+
+  // Components
+  @import "components/main-layout";
+  @import "components/slider";
+
+  // Pages
+  @import "pages/home";
+}
