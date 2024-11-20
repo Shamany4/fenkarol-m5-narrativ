@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuLinks = document.querySelectorAll('.rinit-slider-menu > li');
 
     const parameters = {
-      zoom: true,
       direction: 'horizontal',
       slidePerView: 1,
       slidePerCount: 1,
