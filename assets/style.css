@@ -1097,5 +1097,16 @@ html {
 .lightbox .lb-image {
   border: none !important;
 }
+.lightbox .lb-data .lb-close {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  top: -5px;
+  right: 15px;
+  transform: translateY(-101%);
+  opacity: 1;
+  background: url("../assets/images/close-icon-in-circle.svg") no-repeat center center !important;
+  background-size: 100% 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
