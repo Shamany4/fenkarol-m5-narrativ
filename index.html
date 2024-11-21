@@ -56,6 +56,7 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   />
+  <link rel="stylesheet" href="assets/lightbox.min.css">
 </head>
 
 <body
@@ -194,7 +195,10 @@
                       <div class="border-block__wrapper">
                         <h3 class="red-title">Классификация аллергического ринита<sup>1</sup></h3>
                         <div class="type-ar-table mt-24">
-                          <img src="assets/images/type-ar-table.png" alt="Таблица">
+                          <a href="assets/images/type-ar-table.png" data-lightbox="type-ar-table" data-title="Классификация аллергического ринита">
+                            <img src="assets/images/type-ar-table.png" alt="Таблица">
+                          </a>
+
                           <table>
                             <thead>
                             <tr>
@@ -1048,6 +1052,7 @@
   <script src="./assets/script.js"></script>
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/lightbox.min.js"></script>
 
 </footer>
 </body>

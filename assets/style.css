@@ -256,13 +256,6 @@ html {
 #fenkarol-m5-narrativ .rinit-slider {
   overflow: hidden;
 }
-#fenkarol-m5-narrativ .rinit-slider .rinit-slider__controls.rinit-slider__controls--absolute {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 #fenkarol-m5-narrativ .rinit-slider .rinit-slider__controls.rinit-slider__controls--static {
   position: static;
   display: flex;
@@ -1094,6 +1087,15 @@ html {
     right: 15px;
     transform: translateX(0);
   }
+}
+
+.lightboxOverlay {
+  border: none;
+  outline: none;
+}
+
+.lightbox .lb-image {
+  border: none !important;
 }
 
 /*# sourceMappingURL=style.css.map */

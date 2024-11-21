@@ -33,5 +33,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  const initLightBox = () => {
+    lightbox.option({
+      disableScrolling: true,
+      positionFromTop: 250
+    });
+  }
+
   initSlider();
+  initLightBox();
 });
