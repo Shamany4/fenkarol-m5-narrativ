@@ -6,11 +6,9 @@
 
   .rinit-slider__controls {
     &.rinit-slider__controls--absolute {
-      //height: 100%;
-      //width: 100%;
-      //position: absolute;
-      //top: 0;
-      //left: 0;
+      .rinit-slider__pagination {
+        display: none;
+      }
     }
 
     &.rinit-slider__controls--static {
@@ -88,13 +86,22 @@
   @include media(sm) {
     .rinit-slider__button-prev,
     .rinit-slider__button-next {
-      top: 200px;
-      width: 34px;
-      height: 38px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 24px;
+      height: 28px;
 
       img {
-        height: 13px;
+        height: 11px;
       }
+    }
+
+    .rinit-slider__button-prev {
+      border-radius: 0 8px 8px 0;
+    }
+
+    .rinit-slider__button-next {
+      border-radius: 8px 0 0 8px;
     }
   }
 }

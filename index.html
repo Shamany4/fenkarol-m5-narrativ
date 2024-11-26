@@ -56,7 +56,6 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
   />
-  <link rel="stylesheet" href="assets/lightbox.min.css">
 </head>
 
 <body
@@ -195,9 +194,6 @@
                       <div class="border-block__wrapper">
                         <h3 class="red-title">Классификация аллергического ринита<sup>1</sup></h3>
                         <div class="type-ar-table mt-24">
-                          <a href="assets/images/type-ar-table.png" data-lightbox="type-ar-table" data-title="Классификация аллергического ринита">
-                            <img src="assets/images/type-ar-table.png" alt="Таблица">
-                          </a>
                           <table>
                             <thead>
                             <tr>
@@ -306,9 +302,6 @@
                           </div>
                         </div>
                         <div class="complications-ar-table mt-24">
-                          <a href="assets/images/complications-ar-table.png" data-lightbox="complications-ar-table" data-title="Сопутствующие заболевания и&nbsp;осложнения АР">
-                            <img src="assets/images/complications-ar-table.png" alt="Таблица">
-                          </a>
                           <table>
                             <thead>
                             <tr>
@@ -535,9 +528,10 @@
                           Примеры структурных нарушений: <br>
                           искривление носовой перегородки
                         </h3>
-                        <a href="assets/images/example-disease-1.jpg" data-lightbox="example-disease-1" data-title="Примеры структурных нарушений: искривление носовой перегородки">
-                          <img src="assets/images/example-disease-1.jpg" alt="Пример нарушения" class="mt-24">
-                        </a>
+                        <div class="example-disease example-disease--1 mt-24">
+                          <img src="assets/images/example-disease-1-1.jpg" alt="Диагноз" class="example-disease__picture">
+                          <img src="assets/images/example-disease-1-2.jpg" alt="Диагноз" class="example-disease__picture">
+                        </div>
                         <div class="rinit-slider__controls rinit-slider__controls--absolute">
                           <div class="rinit-slider__button-prev">
                             <img src="assets/images/arrow-icon.svg" alt="Стрелочка">
@@ -583,9 +577,10 @@
                           Примеры осложнений АР: <br>
                           риносинусит
                         </h3>
-                        <a href="assets/images/example-disease-2.jpg" data-lightbox="example-disease-2" data-title="Примеры осложнений АР: риносинусит">
-                          <img src="assets/images/example-disease-2.jpg" alt="Пример нарушения" class="mt-24">
-                        </a>
+                        <div class="example-disease example-disease--2 mt-24">
+                          <img src="assets/images/example-disease-2-1.jpg" alt="Диагноз" class="example-disease__picture">
+                          <img src="assets/images/example-disease-2-2.jpg" alt="Диагноз" class="example-disease__picture">
+                        </div>
                         <div class="rinit-slider__controls rinit-slider__controls--absolute">
                           <div class="rinit-slider__button-prev">
                             <img src="assets/images/arrow-icon.svg" alt="Стрелочка">
@@ -630,9 +625,10 @@
                         <h3 class="red-title">
                           Примеры осложнений АР: синусит
                         </h3>
-                        <a href="assets/images/example-disease-3.jpg" data-lightbox="example-disease-3" data-title="Примеры осложнений АР: синусит">
-                          <img src="assets/images/example-disease-3.jpg" alt="Пример нарушения" class="mt-24">
-                        </a>
+                        <div class="example-disease example-disease--3 mt-24">
+                          <img src="assets/images/example-disease-3-1.jpg" alt="Диагноз" class="example-disease__picture">
+                          <img src="assets/images/example-disease-3-2.jpg" alt="Диагноз" class="example-disease__picture">
+                        </div>
                         <div class="rinit-slider__controls rinit-slider__controls--absolute">
                           <div class="rinit-slider__button-prev">
                             <img src="assets/images/arrow-icon.svg" alt="Стрелочка">
@@ -674,9 +670,10 @@
                         <h3 class="red-title">
                           Примеры осложнений АР: гнойный отит
                         </h3>
-                        <a href="assets/images/example-disease-4.jpg" data-lightbox="example-disease-4" data-title="Примеры осложнений АР: гнойный отит">
-                          <img src="assets/images/example-disease-4.jpg" alt="Пример нарушения" class="mt-24">
-                        </a>
+                        <div class="example-disease example-disease--4 mt-24">
+                          <img src="assets/images/example-disease-4-1.png" alt="Диагноз" class="example-disease__picture">
+                          <img src="assets/images/example-disease-4-2.jpg" alt="Диагноз" class="example-disease__picture">
+                        </div>
                         <div class="rinit-slider__controls rinit-slider__controls--absolute">
                           <div class="rinit-slider__button-prev">
                             <img src="assets/images/arrow-icon.svg" alt="Стрелочка">
@@ -727,9 +724,8 @@
                             Избегание аллергенов и&nbsp;промывание носа целесообразно в&nbsp;течение всего времени
                           </p>
                         </div>
-                        <a href="assets/images/ap-therapy-chart.png" data-lightbox="ap-therapy-chart" data-title="Представления о терапии АР">
-                          <img src="assets/images/ap-therapy-chart.png" alt="График" class="mt-16">
-                        </a>
+                        <img src="assets/images/ap-therapy-chart.svg" alt="График" class="mt-16 ap-therapy-chart">
+                        <img src="assets/images/ap-therapy-chart--mobile.svg" alt="График" class="mt-16 ap-therapy-chart ap-therapy-chart--mobile">
                         <p class="mt-24 fz-14 w-medium">
                           (*) Вспомогательная терапия.
                         </p>
@@ -927,7 +923,7 @@
               <ol>
                 <li>
                   Seidman&nbsp;M.&nbsp;D., Gurgel&nbsp;R.&nbsp;K., Lin&nbsp;S.&nbsp;Y. et&nbsp;al. Clinical practice
-                  guideline: Allergic rhinitis. Otolaryngol Head Neck Surg.&nbsp;2015;152 (1&nbsp;Suppl): S1-S43.
+                  guideline: Allergic rhinitis. Otolaryngol Head Neck Surg.&nbsp;2015;152(1&nbsp;Suppl): S1-S43.
                   doi:10.1177/0194599814561600
                 </li>
                 <li>
@@ -1063,7 +1059,6 @@
   <script src="./assets/script.js"></script>
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="assets/lightbox.min.js"></script>
 
 </footer>
 </body>

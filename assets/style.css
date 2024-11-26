@@ -256,6 +256,9 @@ html {
 #fenkarol-m5-narrativ .rinit-slider {
   overflow: hidden;
 }
+#fenkarol-m5-narrativ .rinit-slider .rinit-slider__controls.rinit-slider__controls--absolute .rinit-slider__pagination {
+  display: none;
+}
 #fenkarol-m5-narrativ .rinit-slider .rinit-slider__controls.rinit-slider__controls--static {
   position: static;
   display: flex;
@@ -316,13 +319,20 @@ html {
 @media screen and (max-width: 576px) {
   #fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-prev,
   #fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-next {
-    top: 200px;
-    width: 34px;
-    height: 38px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 28px;
   }
   #fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-prev img,
   #fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-next img {
-    height: 13px;
+    height: 11px;
+  }
+  #fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-prev {
+    border-radius: 0 8px 8px 0;
+  }
+  #fenkarol-m5-narrativ .rinit-slider .rinit-slider__button-next {
+    border-radius: 8px 0 0 8px;
   }
 }
 #fenkarol-m5-narrativ .role-doctor {
@@ -554,9 +564,6 @@ html {
 #fenkarol-m5-narrativ .type-ar-table {
   padding: 8px;
 }
-#fenkarol-m5-narrativ .type-ar-table img {
-  display: none;
-}
 #fenkarol-m5-narrativ .type-ar-table table {
   border: none !important;
 }
@@ -606,15 +613,24 @@ html {
   #fenkarol-m5-narrativ .type-ar-table {
     width: 100%;
   }
-  #fenkarol-m5-narrativ .type-ar-table table {
-    display: none;
+  #fenkarol-m5-narrativ .type-ar-table table thead tr th:first-child, #fenkarol-m5-narrativ .type-ar-table table thead tr td:first-child,
+  #fenkarol-m5-narrativ .type-ar-table table tbody tr th:first-child,
+  #fenkarol-m5-narrativ .type-ar-table table tbody tr td:first-child {
+    min-width: auto;
+    max-width: 130px;
   }
-  #fenkarol-m5-narrativ .type-ar-table img {
-    display: block;
+  #fenkarol-m5-narrativ .type-ar-table table thead tr th {
+    padding: 12px 8px;
+    font-size: 13px;
   }
-}
-#fenkarol-m5-narrativ .complications-ar-table img {
-  display: none;
+  #fenkarol-m5-narrativ .type-ar-table table tbody tr td {
+    padding: 12px 8px;
+    font-size: 13px;
+  }
+  #fenkarol-m5-narrativ .type-ar-table table tbody tr td:first-child {
+    font-size: 13px;
+    padding-left: 8px;
+  }
 }
 #fenkarol-m5-narrativ .complications-ar-table table {
   width: 100%;
@@ -662,7 +678,6 @@ html {
   line-height: 1;
 }
 #fenkarol-m5-narrativ .complications-ar-table table tbody tr td img {
-  display: inline-block;
   width: 18px;
 }
 #fenkarol-m5-narrativ .complications-ar-table table tbody tr td:first-child {
@@ -678,11 +693,32 @@ html {
   border-bottom-right-radius: 10px;
 }
 @media screen and (max-width: 768px) {
-  #fenkarol-m5-narrativ .complications-ar-table table {
-    display: none;
+  #fenkarol-m5-narrativ .complications-ar-table table thead tr:first-child th:first-child {
+    font-size: 13px;
   }
-  #fenkarol-m5-narrativ .complications-ar-table img {
-    display: block;
+  #fenkarol-m5-narrativ .complications-ar-table table thead tr:last-child th {
+    font-size: 13px;
+  }
+  #fenkarol-m5-narrativ .complications-ar-table table thead tr th {
+    font-size: 13px;
+  }
+  #fenkarol-m5-narrativ .complications-ar-table table tbody tr td {
+    min-width: 120px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #fenkarol-m5-narrativ .complications-ar-table table thead tr:first-child th:first-child {
+    font-size: 13px;
+    padding-left: 12px;
+  }
+  #fenkarol-m5-narrativ .complications-ar-table table tbody tr td {
+    padding: 12px;
+    min-width: 100px;
+    font-size: 13px;
+  }
+  #fenkarol-m5-narrativ .complications-ar-table table tbody tr td img {
+    width: 14px;
   }
 }
 #fenkarol-m5-narrativ .designations {
@@ -699,6 +735,72 @@ html {
 @media screen and (max-width: 768px) {
   #fenkarol-m5-narrativ .designations {
     flex-direction: column;
+  }
+}
+#fenkarol-m5-narrativ .example-disease {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+}
+#fenkarol-m5-narrativ .example-disease .example-disease__picture {
+  max-width: 100%;
+}
+#fenkarol-m5-narrativ .example-disease.example-disease--1 .example-disease__picture {
+  height: 313px;
+}
+#fenkarol-m5-narrativ .example-disease.example-disease--2 .example-disease__picture {
+  height: 379px;
+}
+#fenkarol-m5-narrativ .example-disease.example-disease--3 .example-disease__picture {
+  height: 371px;
+}
+#fenkarol-m5-narrativ .example-disease.example-disease--4 .example-disease__picture {
+  height: 322px;
+}
+#fenkarol-m5-narrativ .example-disease.example-disease--4 .example-disease__picture:first-child {
+  height: 205px;
+}
+@media screen and (max-width: 992px) {
+  #fenkarol-m5-narrativ .example-disease {
+    flex-direction: column;
+  }
+  #fenkarol-m5-narrativ .example-disease .example-disease__picture {
+    height: auto;
+    width: 380px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #fenkarol-m5-narrativ .example-disease .example-disease__picture {
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
+}
+#fenkarol-m5-narrativ .ap-therapy-chart {
+  width: 100%;
+}
+#fenkarol-m5-narrativ .ap-therapy-chart.ap-therapy-chart--mobile {
+  display: none;
+}
+@media screen and (max-width: 1400px) {
+  #fenkarol-m5-narrativ .ap-therapy-chart {
+    display: block;
+    width: 768px;
+    margin: 16px auto 0 auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  #fenkarol-m5-narrativ .ap-therapy-chart {
+    width: 100%;
+  }
+}
+@media screen and (max-width: ) {
+  #fenkarol-m5-narrativ .ap-therapy-chart {
+    display: none;
+  }
+  #fenkarol-m5-narrativ .ap-therapy-chart.ap-therapy-chart--mobile {
+    display: block;
+    width: 100%;
   }
 }
 #fenkarol-m5-narrativ .role-block .role-block__wrapper {
